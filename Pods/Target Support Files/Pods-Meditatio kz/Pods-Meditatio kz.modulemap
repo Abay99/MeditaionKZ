@@ -1,0 +1,6 @@
+framework module Pods_Meditatio_kz {
+  umbrella header "Pods-Meditatio kz-umbrella.h"
+
+  export *
+  module * { export * }
+}

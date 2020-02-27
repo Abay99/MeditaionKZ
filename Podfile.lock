@@ -1,0 +1,76 @@
+PODS:
+  - Alamofire (4.7.3)
+  - FSCalendar (2.8.0)
+  - IQKeyboardManagerSwift (6.4.1)
+  - Jukebox (0.2.1)
+  - Kingfisher (5.7.1)
+  - MBCircularProgressBar (0.3.5)
+  - ReachabilitySwift (4.3.1)
+  - SDWebImage (4.4.7):
+    - SDWebImage/Core (= 4.4.7)
+  - SDWebImage/Core (4.4.7)
+  - SnapKit (5.0.1)
+  - SwiftValidator (4.0.0)
+  - TagListView (1.4.0)
+  - TYCyclePagerView (1.2.0)
+  - XLPagerTabStrip (9.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Alamofire (= 4.7.3)
+  - FSCalendar
+  - IQKeyboardManagerSwift
+  - Jukebox
+  - Kingfisher (~> 5.0)
+  - MBCircularProgressBar
+  - ReachabilitySwift
+  - SDWebImage (~> 4.0)
+  - SnapKit (~> 5.0.0)
+  - SwiftValidator (from `https://github.com/jpotts18/SwiftValidator.git`, tag `4.2.0`)
+  - TagListView (~> 1.0)
+  - TYCyclePagerView
+  - XLPagerTabStrip (~> 9.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - FSCalendar
+    - IQKeyboardManagerSwift
+    - Jukebox
+    - Kingfisher
+    - MBCircularProgressBar
+    - ReachabilitySwift
+    - SDWebImage
+    - SnapKit
+    - TagListView
+    - TYCyclePagerView
+    - XLPagerTabStrip
+
+EXTERNAL SOURCES:
+  SwiftValidator:
+    :git: https://github.com/jpotts18/SwiftValidator.git
+    :tag: 4.2.0
+
+CHECKOUT OPTIONS:
+  SwiftValidator:
+    :git: https://github.com/jpotts18/SwiftValidator.git
+    :tag: 4.2.0
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  FSCalendar: 3a5ed3636e2ba1b83ebebfcf0c2603105a6f5efe
+  IQKeyboardManagerSwift: d2df660d0b8d64a15cb2537c9ff303213fa515b2
+  Jukebox: 81db618ccd3a1cc9b154f4ae0f5c4b54638666dd
+  Kingfisher: 176d377ad339113c99ad4980cbae687f807e20fe
+  MBCircularProgressBar: 0b795b722a5eb5b0923822f90474e2576a1a7855
+  ReachabilitySwift: 4032e2f59586e11e3b0ebe15b167abdd587a388b
+  SDWebImage: c10d14a8883ebd89664f02a422006f66a85c0c5d
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftValidator: 249b6b3ae3b294266c5b9de134d94f18f2d5aa47
+  TagListView: 987b0bdbb16cd9d9e7c0e2ec32aff37ecba8b173
+  TYCyclePagerView: 2b051dade0615c70784aa34f40c646feeddb7344
+  XLPagerTabStrip: 61c57fd61f611ee5f01ff1495ad6fbee8bf496c5
+
+PODFILE CHECKSUM: 33c3f17170920f85abb7c4e789b2fe28393a437c
+
+COCOAPODS: 1.7.4

@@ -1,0 +1,6 @@
+framework module Pods_Meditatio_kzUITests {
+  umbrella header "Pods-Meditatio kzUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,1302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09103D09E6D387129CF404E7 /* Pods_Meditatio_kzTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8887E971D1A39F6EAD62AD30 /* Pods_Meditatio_kzTests.framework */; };
+		54E0F323C7E6BD4B85278402 /* Pods_Meditatio_kz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7E9B19F86BF5A59924594A /* Pods_Meditatio_kz.framework */; };
+		75CB84D9C4608B71135508C2 /* Pods_Meditatio_kzUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B5F0E4E822D47ED73DB560 /* Pods_Meditatio_kzUITests.framework */; };
+		E52AD51C238E942000E56F37 /* AkilOiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52AD51B238E942000E56F37 /* AkilOiData.swift */; };
+		E52AD51E238F8FFA00E56F37 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52AD51D238F8FFA00E56F37 /* ForgotPasswordViewController.swift */; };
+		E52AD521238FF06E00E56F37 /* MonthPaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52AD520238FF06E00E56F37 /* MonthPaymentView.swift */; };
+		E52AD523238FF07300E56F37 /* ProgramAdvantage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52AD522238FF07300E56F37 /* ProgramAdvantage.swift */; };
+		E52AD525238FF07A00E56F37 /* UnlockProgramsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52AD524238FF07A00E56F37 /* UnlockProgramsViewController.swift */; };
+		E542BCC62394D1A70031BEF7 /* PaymentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E542BCC52394D1A70031BEF7 /* PaymentType.swift */; };
+		E542BCC82395BBE00031BEF7 /* UrlPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E542BCC72395BBE00031BEF7 /* UrlPayment.swift */; };
+		E55062312368076E00CF75E6 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55062232368076E00CF75E6 /* SearchViewController.swift */; };
+		E55062412368569500CF75E6 /* RecommendedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55062402368569500CF75E6 /* RecommendedCell.swift */; };
+		E550624523694B0700CF75E6 /* StartNowCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E550624423694B0700CF75E6 /* StartNowCollectionViewCell.swift */; };
+		E5551262238699780075ED08 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5551254238699780075ED08 /* ChangePasswordViewController.swift */; };
+		E5551263238699780075ED08 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5551255238699780075ED08 /* EditProfileViewController.swift */; };
+		E5551264238699780075ED08 /* NumericInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5551257238699780075ED08 /* NumericInformationView.swift */; };
+		E5551265238699780075ED08 /* GraphRunningTimePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5551258238699780075ED08 /* GraphRunningTimePresenter.swift */; };
+		E5551266238699780075ED08 /* GraphRunningTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5551259238699780075ED08 /* GraphRunningTimeView.swift */; };
+		E5551267238699780075ED08 /* StatisticsGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E555125A238699780075ED08 /* StatisticsGraphView.swift */; };
+		E5551268238699780075ED08 /* RunningTimeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E555125B238699780075ED08 /* RunningTimeRepository.swift */; };
+		E5551269238699780075ED08 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E555125C238699780075ED08 /* CalendarViewController.swift */; };
+		E555126A238699780075ED08 /* TimeGraphData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E555125D238699780075ED08 /* TimeGraphData.swift */; };
+		E555126B238699780075ED08 /* BarGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E555125E238699780075ED08 /* BarGraphView.swift */; };
+		E555126C238699780075ED08 /* GraphRunningTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E555125F238699780075ED08 /* GraphRunningTimeViewController.swift */; };
+		E555126D238699780075ED08 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5551260238699780075ED08 /* ProfileViewController.swift */; };
+		E555126E238699780075ED08 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5551261238699780075ED08 /* SettingsViewController.swift */; };
+		E5551270238699A50075ED08 /* ProfileData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E555126F238699A50075ED08 /* ProfileData.swift */; };
+		E555127223869D430075ED08 /* ShowTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E555127123869D430075ED08 /* ShowTrack.swift */; };
+		E555127423869DA20075ED08 /* NumericalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E555127323869DA20075ED08 /* NumericalData.swift */; };
+		E558A08223616E090083AB0A /* OneCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E558A08123616E090083AB0A /* OneCollectionViewCell.swift */; };
+		E558A0842361A6C60083AB0A /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E558A0832361A6C60083AB0A /* CustomSlider.swift */; };
+		E55A6F63237415CF00FCC576 /* Program.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55A6F62237415CF00FCC576 /* Program.swift */; };
+		E55A6F6523742F1B00FCC576 /* TrendsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55A6F6423742F1B00FCC576 /* TrendsData.swift */; };
+		E55A6F6923752D6700FCC576 /* TrackData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55A6F6823752D6700FCC576 /* TrackData.swift */; };
+		E55A6F6B2375689A00FCC576 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55A6F6A2375689A00FCC576 /* Search.swift */; };
+		E569FF2B234DE7A600961244 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E569FF2A234DE7A600961244 /* AppDelegate.swift */; };
+		E569FF2D234DE7A600961244 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E569FF2C234DE7A600961244 /* ViewController.swift */; };
+		E569FF30234DE7A600961244 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E569FF2E234DE7A600961244 /* Main.storyboard */; };
+		E569FF33234DE7A600961244 /* Meditatio_kz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E569FF31234DE7A600961244 /* Meditatio_kz.xcdatamodeld */; };
+		E569FF35234DE7A900961244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E569FF34234DE7A900961244 /* Assets.xcassets */; };
+		E569FF38234DE7A900961244 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E569FF36234DE7A900961244 /* LaunchScreen.storyboard */; };
+		E569FF43234DE7A900961244 /* Meditatio_kzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E569FF42234DE7A900961244 /* Meditatio_kzTests.swift */; };
+		E569FF4E234DE7AA00961244 /* Meditatio_kzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E569FF4D234DE7AA00961244 /* Meditatio_kzUITests.swift */; };
+		E569FF5D234DF30300961244 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E569FF5C234DF30300961244 /* TabBarViewController.swift */; };
+		E569FF5F234F05D500961244 /* ProgamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E569FF5E234F05D500961244 /* ProgamsViewController.swift */; };
+		E569FF62234F2B1600961244 /* UIColor+Pallette.swift in Sources */ = {isa = PBXBuildFile; fileRef = E569FF61234F2B1600961244 /* UIColor+Pallette.swift */; };
+		E569FF64234F31C800961244 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E569FF63234F31C800961244 /* TabBar.swift */; };
+		E569FF66234F3E1100961244 /* ExtensionUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E569FF65234F3E1100961244 /* ExtensionUIView.swift */; };
+		E569FF68234F40C000961244 /* ConstraintConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E569FF67234F40C000961244 /* ConstraintConstants.swift */; };
+		E569FF6A234F431800961244 /* +UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E569FF69234F431800961244 /* +UIViewController.swift */; };
+		E569FF6D234F5BB000961244 /* TopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E569FF6C234F5BB000961244 /* TopCollectionViewCell.swift */; };
+		E569FF702350735F00961244 /* CategotyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E569FF6F2350735F00961244 /* CategotyTableViewCell.swift */; };
+		E569FF722350738600961244 /* SelfSizedCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E569FF712350738600961244 /* SelfSizedCollectionView.swift */; };
+		E569FF742350761600961244 /* GenericTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E569FF732350761600961244 /* GenericTableView.swift */; };
+		E569FF76235087DC00961244 /* StartNowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E569FF75235087DC00961244 /* StartNowTableViewCell.swift */; };
+		E569FF9A2359C12C00961244 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E569FF992359C12C00961244 /* MainViewController.swift */; };
+		E569FF9D235D7F1B00961244 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E569FF9C235D7F1A00961244 /* DetailViewController.swift */; };
+		E569FF9F235D83C000961244 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E569FF9E235D83C000961244 /* HeaderView.swift */; };
+		E569FFA1235D84FA00961244 /* ViewInstallation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E569FFA0235D84FA00961244 /* ViewInstallation.swift */; };
+		E569FFA3235DAFF000961244 /* StretchyHeaderLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E569FFA2235DAFF000961244 /* StretchyHeaderLayout.swift */; };
+		E569FFA5235DB0F000961244 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E569FFA4235DB0F000961244 /* NavigationController.swift */; };
+		E569FFA7235DCB5000961244 /* MusicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E569FFA6235DCB4F00961244 /* MusicCollectionViewCell.swift */; };
+		E569FFB4235EC43100961244 /* PlayerDetailsView+Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = E569FFAB235EC43100961244 /* PlayerDetailsView+Gestures.swift */; };
+		E569FFB7235EC43100961244 /* BackroundMusicManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E569FFAE235EC43100961244 /* BackroundMusicManager.swift */; };
+		E569FFBA235EC43100961244 /* PlayerDetailsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E569FFB1235EC43100961244 /* PlayerDetailsView.xib */; };
+		E569FFBB235EC43100961244 /* PlayerDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E569FFB2235EC43100961244 /* PlayerDetailsView.swift */; };
+		E569FFBD235EF7BF00961244 /* +NotificationNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = E569FFBC235EF7BF00961244 /* +NotificationNames.swift */; };
+		E569FFBF235EFAD100961244 /* +CMTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = E569FFBE235EFAD100961244 /* +CMTime.swift */; };
+		E569FFC1235F19C400961244 /* +UIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E569FFC0235F19C400961244 /* +UIWindow.swift */; };
+		E59359DF2372C0EC00997933 /* MusicPlaylists.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59359DE2372C0EC00997933 /* MusicPlaylists.swift */; };
+		E59359E12372C14A00997933 /* MusicPlaylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59359E02372C14A00997933 /* MusicPlaylist.swift */; };
+		E5A7183F2362C64100E09F01 /* DetailProgramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A7182E2362C64000E09F01 /* DetailProgramViewController.swift */; };
+		E5A718402362C64100E09F01 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A718302362C64100E09F01 /* SignUpViewController.swift */; };
+		E5A718412362C64100E09F01 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A718312362C64100E09F01 /* SignInViewController.swift */; };
+		E5A718432362F33300E09F01 /* Extension+UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A718422362F33300E09F01 /* Extension+UITextField.swift */; };
+		E5A718452362F34D00E09F01 /* ToolbarPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A718442362F34D00E09F01 /* ToolbarPickerView.swift */; };
+		E5A718472362F36A00E09F01 /* StatisticsOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A718462362F36A00E09F01 /* StatisticsOption.swift */; };
+		E5A718492362F38700E09F01 /* ParametersOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A718482362F38700E09F01 /* ParametersOption.swift */; };
+		E5A7184B2362F3A000E09F01 /* SignInTextFieldOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A7184A2362F3A000E09F01 /* SignInTextFieldOption.swift */; };
+		E5A7184E2362F47800E09F01 /* CustomSignInTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A7184D2362F47800E09F01 /* CustomSignInTextField.swift */; };
+		E5A718502362F48000E09F01 /* CustomSignInLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A7184F2362F48000E09F01 /* CustomSignInLabel.swift */; };
+		E5A718582362F8FB00E09F01 /* ParameterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A718532362F8FB00E09F01 /* ParameterCell.swift */; };
+		E5A718592362F8FB00E09F01 /* ProgramsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A718542362F8FB00E09F01 /* ProgramsCell.swift */; };
+		E5A7185A2362F8FB00E09F01 /* SessionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A718552362F8FB00E09F01 /* SessionCell.swift */; };
+		E5A7185B2362F8FB00E09F01 /* SessionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A718562362F8FB00E09F01 /* SessionData.swift */; };
+		E5A7185C2362F8FB00E09F01 /* ProgramsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A718572362F8FB00E09F01 /* ProgramsData.swift */; };
+		E5B6449E237AB1BB003900F7 /* LikeUnlike.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B6449D237AB1BB003900F7 /* LikeUnlike.swift */; };
+		E5B644A0237BD4EF003900F7 /* PlayerViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B6449F237BD4EF003900F7 /* PlayerViewContoller.swift */; };
+		E5B644A2237D677E003900F7 /* BackroundTraks.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B644A1237D677E003900F7 /* BackroundTraks.swift */; };
+		E5C8C6E42366A39B00D1965A /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C8C6E32366A39B00D1965A /* FavouriteViewController.swift */; };
+		E5C8C6E62366A3B000D1965A /* FavouriteHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C8C6E52366A3B000D1965A /* FavouriteHeaderView.swift */; };
+		E5C8C6E92366ADA500D1965A /* MyTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C8C6E82366ADA500D1965A /* MyTabBarItem.swift */; };
+		E5D069A5238BC8B10091076E /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D069A4238BC8B10091076E /* SignUpViewModel.swift */; };
+		E5D069A7238BC8FC0091076E /* RegistrationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D069A6238BC8FC0091076E /* RegistrationData.swift */; };
+		E5EE48B7236BF17000FBE421 /* ImagePickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EE48AB236BF16F00FBE421 /* ImagePickerManager.swift */; };
+		E5EE48B8236BF17000FBE421 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EE48AC236BF16F00FBE421 /* StorageManager.swift */; };
+		E5EE48B9236BF17000FBE421 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EE48AE236BF16F00FBE421 /* Endpoints.swift */; };
+		E5EE48BA236BF17000FBE421 /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EE48AF236BF16F00FBE421 /* ReachabilityManager.swift */; };
+		E5EE48BB236BF17000FBE421 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EE48B0236BF16F00FBE421 /* NetworkManager.swift */; };
+		E5EE48BC236BF17000FBE421 /* CustomParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EE48B1236BF16F00FBE421 /* CustomParser.swift */; };
+		E5EE48BD236BF17000FBE421 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EE48B2236BF16F00FBE421 /* Parser.swift */; };
+		E5EE48BE236BF17000FBE421 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EE48B3236BF16F00FBE421 /* CustomError.swift */; };
+		E5EE48BF236BF17000FBE421 /* EndpointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EE48B4236BF16F00FBE421 /* EndpointType.swift */; };
+		E5EE48C0236BF17000FBE421 /* DatePickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EE48B5236BF16F00FBE421 /* DatePickerManager.swift */; };
+		E5EE48C1236BF17000FBE421 /* PickerViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EE48B6236BF16F00FBE421 /* PickerViewManager.swift */; };
+		E5EE48C6236BF65400FBE421 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EE48C5236BF65400FBE421 /* Colors.swift */; };
+		E5EE48C9236BF65D00FBE421 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EE48C7236BF65D00FBE421 /* ErrorMessage.swift */; };
+		E5EE48CA236BF65D00FBE421 /* Titles.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EE48C8236BF65D00FBE421 /* Titles.swift */; };
+		E5EE48CC236BF6B600FBE421 /* SigninViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EE48CB236BF6B600FBE421 /* SigninViewModel.swift */; };
+		E5EE48CF236C2F0100FBE421 /* GetToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EE48CE236C2F0100FBE421 /* GetToken.swift */; };
+		E5EE48D123713A9100FBE421 /* +UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EE48D023713A9100FBE421 /* +UIApplication.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E569FF3F234DE7A900961244 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E569FF1F234DE7A600961244 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E569FF26234DE7A600961244;
+			remoteInfo = "Meditatio kz";
+		};
+		E569FF4A234DE7AA00961244 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E569FF1F234DE7A600961244 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E569FF26234DE7A600961244;
+			remoteInfo = "Meditatio kz";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43577B1E203A804905BF97AE /* Pods-Meditatio kzTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meditatio kzTests.release.xcconfig"; path = "Target Support Files/Pods-Meditatio kzTests/Pods-Meditatio kzTests.release.xcconfig"; sourceTree = "<group>"; };
+		4EBD08816061D0C5191EC259 /* Pods-Meditatio kz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meditatio kz.release.xcconfig"; path = "Target Support Files/Pods-Meditatio kz/Pods-Meditatio kz.release.xcconfig"; sourceTree = "<group>"; };
+		5C8EB5CD2F5B031457E723C4 /* Pods-Meditatio kz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meditatio kz.debug.xcconfig"; path = "Target Support Files/Pods-Meditatio kz/Pods-Meditatio kz.debug.xcconfig"; sourceTree = "<group>"; };
+		5D24E97FF4F09F8E11F28778 /* Pods-Meditatio kzUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meditatio kzUITests.release.xcconfig"; path = "Target Support Files/Pods-Meditatio kzUITests/Pods-Meditatio kzUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8887E971D1A39F6EAD62AD30 /* Pods_Meditatio_kzTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Meditatio_kzTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		902859FCCBAC02FF376B942E /* Pods-Meditatio kzUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meditatio kzUITests.debug.xcconfig"; path = "Target Support Files/Pods-Meditatio kzUITests/Pods-Meditatio kzUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B9F74689EE3F8FDE57226B8F /* Pods-Meditatio kzTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meditatio kzTests.debug.xcconfig"; path = "Target Support Files/Pods-Meditatio kzTests/Pods-Meditatio kzTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4B5F0E4E822D47ED73DB560 /* Pods_Meditatio_kzUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Meditatio_kzUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E52AD51B238E942000E56F37 /* AkilOiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AkilOiData.swift; sourceTree = "<group>"; };
+		E52AD51D238F8FFA00E56F37 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		E52AD520238FF06E00E56F37 /* MonthPaymentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthPaymentView.swift; sourceTree = "<group>"; };
+		E52AD522238FF07300E56F37 /* ProgramAdvantage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramAdvantage.swift; sourceTree = "<group>"; };
+		E52AD524238FF07A00E56F37 /* UnlockProgramsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnlockProgramsViewController.swift; sourceTree = "<group>"; };
+		E542BCC52394D1A70031BEF7 /* PaymentType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentType.swift; sourceTree = "<group>"; };
+		E542BCC72395BBE00031BEF7 /* UrlPayment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlPayment.swift; sourceTree = "<group>"; };
+		E55062232368076E00CF75E6 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		E55062402368569500CF75E6 /* RecommendedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendedCell.swift; sourceTree = "<group>"; };
+		E550624423694B0700CF75E6 /* StartNowCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartNowCollectionViewCell.swift; sourceTree = "<group>"; };
+		E5551254238699780075ED08 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		E5551255238699780075ED08 /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		E5551257238699780075ED08 /* NumericInformationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumericInformationView.swift; sourceTree = "<group>"; };
+		E5551258238699780075ED08 /* GraphRunningTimePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphRunningTimePresenter.swift; sourceTree = "<group>"; };
+		E5551259238699780075ED08 /* GraphRunningTimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphRunningTimeView.swift; sourceTree = "<group>"; };
+		E555125A238699780075ED08 /* StatisticsGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticsGraphView.swift; sourceTree = "<group>"; };
+		E555125B238699780075ED08 /* RunningTimeRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunningTimeRepository.swift; sourceTree = "<group>"; };
+		E555125C238699780075ED08 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		E555125D238699780075ED08 /* TimeGraphData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeGraphData.swift; sourceTree = "<group>"; };
+		E555125E238699780075ED08 /* BarGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarGraphView.swift; sourceTree = "<group>"; };
+		E555125F238699780075ED08 /* GraphRunningTimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphRunningTimeViewController.swift; sourceTree = "<group>"; };
+		E5551260238699780075ED08 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		E5551261238699780075ED08 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		E555126F238699A50075ED08 /* ProfileData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileData.swift; sourceTree = "<group>"; };
+		E555127123869D430075ED08 /* ShowTrack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowTrack.swift; sourceTree = "<group>"; };
+		E555127323869DA20075ED08 /* NumericalData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumericalData.swift; sourceTree = "<group>"; };
+		E558A08123616E090083AB0A /* OneCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneCollectionViewCell.swift; sourceTree = "<group>"; };
+		E558A0832361A6C60083AB0A /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
+		E55A6F62237415CF00FCC576 /* Program.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Program.swift; sourceTree = "<group>"; };
+		E55A6F6423742F1B00FCC576 /* TrendsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendsData.swift; sourceTree = "<group>"; };
+		E55A6F6823752D6700FCC576 /* TrackData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackData.swift; sourceTree = "<group>"; };
+		E55A6F6A2375689A00FCC576 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		E569FF27234DE7A600961244 /* Meditatio kz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meditatio kz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E569FF2A234DE7A600961244 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E569FF2C234DE7A600961244 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E569FF2F234DE7A600961244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E569FF32234DE7A600961244 /* Meditatio_kz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Meditatio_kz.xcdatamodel; sourceTree = "<group>"; };
+		E569FF34234DE7A900961244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E569FF37234DE7A900961244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E569FF39234DE7A900961244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E569FF3E234DE7A900961244 /* Meditatio kzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meditatio kzTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E569FF42234DE7A900961244 /* Meditatio_kzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meditatio_kzTests.swift; sourceTree = "<group>"; };
+		E569FF44234DE7A900961244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E569FF49234DE7A900961244 /* Meditatio kzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meditatio kzUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E569FF4D234DE7AA00961244 /* Meditatio_kzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meditatio_kzUITests.swift; sourceTree = "<group>"; };
+		E569FF4F234DE7AA00961244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E569FF5C234DF30300961244 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		E569FF5E234F05D500961244 /* ProgamsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgamsViewController.swift; sourceTree = "<group>"; };
+		E569FF61234F2B1600961244 /* UIColor+Pallette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Pallette.swift"; sourceTree = "<group>"; };
+		E569FF63234F31C800961244 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		E569FF65234F3E1100961244 /* ExtensionUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUIView.swift; sourceTree = "<group>"; };
+		E569FF67234F40C000961244 /* ConstraintConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintConstants.swift; sourceTree = "<group>"; };
+		E569FF69234F431800961244 /* +UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+UIViewController.swift"; sourceTree = "<group>"; };
+		E569FF6C234F5BB000961244 /* TopCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCollectionViewCell.swift; sourceTree = "<group>"; };
+		E569FF6F2350735F00961244 /* CategotyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategotyTableViewCell.swift; sourceTree = "<group>"; };
+		E569FF712350738600961244 /* SelfSizedCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfSizedCollectionView.swift; sourceTree = "<group>"; };
+		E569FF732350761600961244 /* GenericTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericTableView.swift; sourceTree = "<group>"; };
+		E569FF75235087DC00961244 /* StartNowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartNowTableViewCell.swift; sourceTree = "<group>"; };
+		E569FF992359C12C00961244 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E569FF9C235D7F1A00961244 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E569FF9E235D83C000961244 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		E569FFA0235D84FA00961244 /* ViewInstallation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewInstallation.swift; sourceTree = "<group>"; };
+		E569FFA2235DAFF000961244 /* StretchyHeaderLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyHeaderLayout.swift; sourceTree = "<group>"; };
+		E569FFA4235DB0F000961244 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		E569FFA6235DCB4F00961244 /* MusicCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCollectionViewCell.swift; sourceTree = "<group>"; };
+		E569FFAB235EC43100961244 /* PlayerDetailsView+Gestures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlayerDetailsView+Gestures.swift"; sourceTree = "<group>"; };
+		E569FFAE235EC43100961244 /* BackroundMusicManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackroundMusicManager.swift; sourceTree = "<group>"; };
+		E569FFB1235EC43100961244 /* PlayerDetailsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerDetailsView.xib; sourceTree = "<group>"; };
+		E569FFB2235EC43100961244 /* PlayerDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerDetailsView.swift; sourceTree = "<group>"; };
+		E569FFBC235EF7BF00961244 /* +NotificationNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+NotificationNames.swift"; sourceTree = "<group>"; };
+		E569FFBE235EFAD100961244 /* +CMTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+CMTime.swift"; sourceTree = "<group>"; };
+		E569FFC0235F19C400961244 /* +UIWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+UIWindow.swift"; sourceTree = "<group>"; };
+		E59359DE2372C0EC00997933 /* MusicPlaylists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlaylists.swift; sourceTree = "<group>"; };
+		E59359E02372C14A00997933 /* MusicPlaylist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlaylist.swift; sourceTree = "<group>"; };
+		E5A7182E2362C64000E09F01 /* DetailProgramViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailProgramViewController.swift; sourceTree = "<group>"; };
+		E5A718302362C64100E09F01 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		E5A718312362C64100E09F01 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		E5A718422362F33300E09F01 /* Extension+UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UITextField.swift"; sourceTree = "<group>"; };
+		E5A718442362F34D00E09F01 /* ToolbarPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarPickerView.swift; sourceTree = "<group>"; };
+		E5A718462362F36A00E09F01 /* StatisticsOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsOption.swift; sourceTree = "<group>"; };
+		E5A718482362F38700E09F01 /* ParametersOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParametersOption.swift; sourceTree = "<group>"; };
+		E5A7184A2362F3A000E09F01 /* SignInTextFieldOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInTextFieldOption.swift; sourceTree = "<group>"; };
+		E5A7184D2362F47800E09F01 /* CustomSignInTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSignInTextField.swift; sourceTree = "<group>"; };
+		E5A7184F2362F48000E09F01 /* CustomSignInLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSignInLabel.swift; sourceTree = "<group>"; };
+		E5A718532362F8FB00E09F01 /* ParameterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterCell.swift; sourceTree = "<group>"; };
+		E5A718542362F8FB00E09F01 /* ProgramsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramsCell.swift; sourceTree = "<group>"; };
+		E5A718552362F8FB00E09F01 /* SessionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionCell.swift; sourceTree = "<group>"; };
+		E5A718562362F8FB00E09F01 /* SessionData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionData.swift; sourceTree = "<group>"; };
+		E5A718572362F8FB00E09F01 /* ProgramsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramsData.swift; sourceTree = "<group>"; };
+		E5B6449D237AB1BB003900F7 /* LikeUnlike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeUnlike.swift; sourceTree = "<group>"; };
+		E5B6449F237BD4EF003900F7 /* PlayerViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewContoller.swift; sourceTree = "<group>"; };
+		E5B644A1237D677E003900F7 /* BackroundTraks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackroundTraks.swift; sourceTree = "<group>"; };
+		E5C8C6E32366A39B00D1965A /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
+		E5C8C6E52366A3B000D1965A /* FavouriteHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteHeaderView.swift; sourceTree = "<group>"; };
+		E5C8C6E82366ADA500D1965A /* MyTabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarItem.swift; sourceTree = "<group>"; };
+		E5D069A4238BC8B10091076E /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		E5D069A6238BC8FC0091076E /* RegistrationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationData.swift; sourceTree = "<group>"; };
+		E5EE48AB236BF16F00FBE421 /* ImagePickerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerManager.swift; sourceTree = "<group>"; };
+		E5EE48AC236BF16F00FBE421 /* StorageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		E5EE48AE236BF16F00FBE421 /* Endpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		E5EE48AF236BF16F00FBE421 /* ReachabilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReachabilityManager.swift; sourceTree = "<group>"; };
+		E5EE48B0236BF16F00FBE421 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E5EE48B1236BF16F00FBE421 /* CustomParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomParser.swift; sourceTree = "<group>"; };
+		E5EE48B2236BF16F00FBE421 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		E5EE48B3236BF16F00FBE421 /* CustomError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
+		E5EE48B4236BF16F00FBE421 /* EndpointType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndpointType.swift; sourceTree = "<group>"; };
+		E5EE48B5236BF16F00FBE421 /* DatePickerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerManager.swift; sourceTree = "<group>"; };
+		E5EE48B6236BF16F00FBE421 /* PickerViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewManager.swift; sourceTree = "<group>"; };
+		E5EE48C5236BF65400FBE421 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		E5EE48C7236BF65D00FBE421 /* ErrorMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
+		E5EE48C8236BF65D00FBE421 /* Titles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Titles.swift; sourceTree = "<group>"; };
+		E5EE48CB236BF6B600FBE421 /* SigninViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigninViewModel.swift; sourceTree = "<group>"; };
+		E5EE48CE236C2F0100FBE421 /* GetToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetToken.swift; sourceTree = "<group>"; };
+		E5EE48D023713A9100FBE421 /* +UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+UIApplication.swift"; sourceTree = "<group>"; };
+		FE7E9B19F86BF5A59924594A /* Pods_Meditatio_kz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Meditatio_kz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E569FF24234DE7A600961244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54E0F323C7E6BD4B85278402 /* Pods_Meditatio_kz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E569FF3B234DE7A900961244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09103D09E6D387129CF404E7 /* Pods_Meditatio_kzTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E569FF46234DE7A900961244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75CB84D9C4608B71135508C2 /* Pods_Meditatio_kzUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3766825254DC7FE7A0BD71D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE7E9B19F86BF5A59924594A /* Pods_Meditatio_kz.framework */,
+				8887E971D1A39F6EAD62AD30 /* Pods_Meditatio_kzTests.framework */,
+				C4B5F0E4E822D47ED73DB560 /* Pods_Meditatio_kzUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E52AD51F238FF04900E56F37 /* UnlockPrograms */ = {
+			isa = PBXGroup;
+			children = (
+				E52AD524238FF07A00E56F37 /* UnlockProgramsViewController.swift */,
+				E52AD522238FF07300E56F37 /* ProgramAdvantage.swift */,
+				E52AD520238FF06E00E56F37 /* MonthPaymentView.swift */,
+			);
+			path = UnlockPrograms;
+			sourceTree = "<group>";
+		};
+		E5551253238699780075ED08 /* ProfilePage */ = {
+			isa = PBXGroup;
+			children = (
+				E5551254238699780075ED08 /* ChangePasswordViewController.swift */,
+				E5551255238699780075ED08 /* EditProfileViewController.swift */,
+				E5551256238699780075ED08 /* Graphs */,
+				E5551260238699780075ED08 /* ProfileViewController.swift */,
+				E5551261238699780075ED08 /* SettingsViewController.swift */,
+			);
+			path = ProfilePage;
+			sourceTree = "<group>";
+		};
+		E5551256238699780075ED08 /* Graphs */ = {
+			isa = PBXGroup;
+			children = (
+				E5551257238699780075ED08 /* NumericInformationView.swift */,
+				E5551258238699780075ED08 /* GraphRunningTimePresenter.swift */,
+				E5551259238699780075ED08 /* GraphRunningTimeView.swift */,
+				E555125A238699780075ED08 /* StatisticsGraphView.swift */,
+				E555125B238699780075ED08 /* RunningTimeRepository.swift */,
+				E555125C238699780075ED08 /* CalendarViewController.swift */,
+				E555125D238699780075ED08 /* TimeGraphData.swift */,
+				E555125E238699780075ED08 /* BarGraphView.swift */,
+				E555125F238699780075ED08 /* GraphRunningTimeViewController.swift */,
+			);
+			path = Graphs;
+			sourceTree = "<group>";
+		};
+		E569FF1E234DE7A600961244 = {
+			isa = PBXGroup;
+			children = (
+				E569FF29234DE7A600961244 /* Meditatio kz */,
+				E569FF41234DE7A900961244 /* Meditatio kzTests */,
+				E569FF4C234DE7AA00961244 /* Meditatio kzUITests */,
+				E569FF28234DE7A600961244 /* Products */,
+				F7CA88389A0FE55CE2CA7BB7 /* Pods */,
+				3766825254DC7FE7A0BD71D7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E569FF28234DE7A600961244 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E569FF27234DE7A600961244 /* Meditatio kz.app */,
+				E569FF3E234DE7A900961244 /* Meditatio kzTests.xctest */,
+				E569FF49234DE7A900961244 /* Meditatio kzUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E569FF29234DE7A600961244 /* Meditatio kz */ = {
+			isa = PBXGroup;
+			children = (
+				E569FF2A234DE7A600961244 /* AppDelegate.swift */,
+				E569FF5C234DF30300961244 /* TabBarViewController.swift */,
+				E5EE48AA236BF16F00FBE421 /* Managers */,
+				E5EE48C4236BF62300FBE421 /* Constants */,
+				E5A718512362F8FB00E09F01 /* Models */,
+				E5A7184C2362F41D00E09F01 /* ReusableViews */,
+				E569FF5B234DF26C00961244 /* ViewControllers */,
+				E569FF60234F26EC00961244 /* Extension */,
+				E569FF2E234DE7A600961244 /* Main.storyboard */,
+				E569FF34234DE7A900961244 /* Assets.xcassets */,
+				E569FF36234DE7A900961244 /* LaunchScreen.storyboard */,
+				E569FF39234DE7A900961244 /* Info.plist */,
+				E569FF31234DE7A600961244 /* Meditatio_kz.xcdatamodeld */,
+			);
+			path = "Meditatio kz";
+			sourceTree = "<group>";
+		};
+		E569FF41234DE7A900961244 /* Meditatio kzTests */ = {
+			isa = PBXGroup;
+			children = (
+				E569FF42234DE7A900961244 /* Meditatio_kzTests.swift */,
+				E569FF44234DE7A900961244 /* Info.plist */,
+			);
+			path = "Meditatio kzTests";
+			sourceTree = "<group>";
+		};
+		E569FF4C234DE7AA00961244 /* Meditatio kzUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E569FF4D234DE7AA00961244 /* Meditatio_kzUITests.swift */,
+				E569FF4F234DE7AA00961244 /* Info.plist */,
+			);
+			path = "Meditatio kzUITests";
+			sourceTree = "<group>";
+		};
+		E569FF5B234DF26C00961244 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E52AD51F238FF04900E56F37 /* UnlockPrograms */,
+				E5551253238699780075ED08 /* ProfilePage */,
+				E5A7182C2362C64000E09F01 /* FavouritesPage */,
+				E5A7182F2362C64100E09F01 /* LoginPages */,
+				E569FFA9235EC43100961244 /* MusicPlayer */,
+				E569FF9B235D7DB900961244 /* Detail */,
+				E569FF6B234F5B7500961244 /* Programs */,
+				E569FF982359C0DF00961244 /* Main */,
+				E569FFA4235DB0F000961244 /* NavigationController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E569FF60234F26EC00961244 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E5A7184A2362F3A000E09F01 /* SignInTextFieldOption.swift */,
+				E569FF61234F2B1600961244 /* UIColor+Pallette.swift */,
+				E569FF63234F31C800961244 /* TabBar.swift */,
+				E569FF65234F3E1100961244 /* ExtensionUIView.swift */,
+				E569FF67234F40C000961244 /* ConstraintConstants.swift */,
+				E569FF69234F431800961244 /* +UIViewController.swift */,
+				E569FF732350761600961244 /* GenericTableView.swift */,
+				E569FFBC235EF7BF00961244 /* +NotificationNames.swift */,
+				E569FFBE235EFAD100961244 /* +CMTime.swift */,
+				E569FFC0235F19C400961244 /* +UIWindow.swift */,
+				E558A0832361A6C60083AB0A /* CustomSlider.swift */,
+				E5A718422362F33300E09F01 /* Extension+UITextField.swift */,
+				E5A718442362F34D00E09F01 /* ToolbarPickerView.swift */,
+				E5A718462362F36A00E09F01 /* StatisticsOption.swift */,
+				E5A718482362F38700E09F01 /* ParametersOption.swift */,
+				E5EE48D023713A9100FBE421 /* +UIApplication.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E569FF6B234F5B7500961244 /* Programs */ = {
+			isa = PBXGroup;
+			children = (
+				E569FF5E234F05D500961244 /* ProgamsViewController.swift */,
+				E569FF6C234F5BB000961244 /* TopCollectionViewCell.swift */,
+				E569FF2C234DE7A600961244 /* ViewController.swift */,
+				E55062232368076E00CF75E6 /* SearchViewController.swift */,
+				E55A6F6A2375689A00FCC576 /* Search.swift */,
+			);
+			path = Programs;
+			sourceTree = "<group>";
+		};
+		E569FF982359C0DF00961244 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E569FF992359C12C00961244 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E569FF9B235D7DB900961244 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				E569FF9C235D7F1A00961244 /* DetailViewController.swift */,
+				E569FF9E235D83C000961244 /* HeaderView.swift */,
+				E569FFA0235D84FA00961244 /* ViewInstallation.swift */,
+				E569FFA2235DAFF000961244 /* StretchyHeaderLayout.swift */,
+				E569FFA6235DCB4F00961244 /* MusicCollectionViewCell.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		E569FFA9235EC43100961244 /* MusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				E5B6449F237BD4EF003900F7 /* PlayerViewContoller.swift */,
+				E569FFAB235EC43100961244 /* PlayerDetailsView+Gestures.swift */,
+				E569FFAE235EC43100961244 /* BackroundMusicManager.swift */,
+				E569FFB1235EC43100961244 /* PlayerDetailsView.xib */,
+				E569FFB2235EC43100961244 /* PlayerDetailsView.swift */,
+				E558A08123616E090083AB0A /* OneCollectionViewCell.swift */,
+			);
+			path = MusicPlayer;
+			sourceTree = "<group>";
+		};
+		E5A7182C2362C64000E09F01 /* FavouritesPage */ = {
+			isa = PBXGroup;
+			children = (
+				E52AD51D238F8FFA00E56F37 /* ForgotPasswordViewController.swift */,
+				E5A7182E2362C64000E09F01 /* DetailProgramViewController.swift */,
+				E5C8C6E32366A39B00D1965A /* FavouriteViewController.swift */,
+				E5C8C6E52366A3B000D1965A /* FavouriteHeaderView.swift */,
+			);
+			path = FavouritesPage;
+			sourceTree = "<group>";
+		};
+		E5A7182F2362C64100E09F01 /* LoginPages */ = {
+			isa = PBXGroup;
+			children = (
+				E5D069A3238BC8750091076E /* SignUp */,
+				E5D069A2238BC86B0091076E /* SignIn */,
+			);
+			path = LoginPages;
+			sourceTree = "<group>";
+		};
+		E5A7184C2362F41D00E09F01 /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				E5C8C6E72366AD9800D1965A /* Views */,
+				E5A718522362F8FB00E09F01 /* Cells */,
+			);
+			path = ReusableViews;
+			sourceTree = "<group>";
+		};
+		E5A718512362F8FB00E09F01 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E555127323869DA20075ED08 /* NumericalData.swift */,
+				E555127123869D430075ED08 /* ShowTrack.swift */,
+				E555126F238699A50075ED08 /* ProfileData.swift */,
+				E5EE48CE236C2F0100FBE421 /* GetToken.swift */,
+				E5A718562362F8FB00E09F01 /* SessionData.swift */,
+				E5A718572362F8FB00E09F01 /* ProgramsData.swift */,
+				E55A6F62237415CF00FCC576 /* Program.swift */,
+				E59359DE2372C0EC00997933 /* MusicPlaylists.swift */,
+				E59359E02372C14A00997933 /* MusicPlaylist.swift */,
+				E55A6F6423742F1B00FCC576 /* TrendsData.swift */,
+				E55A6F6823752D6700FCC576 /* TrackData.swift */,
+				E5B6449D237AB1BB003900F7 /* LikeUnlike.swift */,
+				E5B644A1237D677E003900F7 /* BackroundTraks.swift */,
+				E5D069A6238BC8FC0091076E /* RegistrationData.swift */,
+				E52AD51B238E942000E56F37 /* AkilOiData.swift */,
+				E542BCC52394D1A70031BEF7 /* PaymentType.swift */,
+				E542BCC72395BBE00031BEF7 /* UrlPayment.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E5A718522362F8FB00E09F01 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E55062402368569500CF75E6 /* RecommendedCell.swift */,
+				E569FF712350738600961244 /* SelfSizedCollectionView.swift */,
+				E5A718532362F8FB00E09F01 /* ParameterCell.swift */,
+				E5A718552362F8FB00E09F01 /* SessionCell.swift */,
+				E569FF6F2350735F00961244 /* CategotyTableViewCell.swift */,
+				E5A718542362F8FB00E09F01 /* ProgramsCell.swift */,
+				E569FF75235087DC00961244 /* StartNowTableViewCell.swift */,
+				E550624423694B0700CF75E6 /* StartNowCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E5C8C6E72366AD9800D1965A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E5A7184F2362F48000E09F01 /* CustomSignInLabel.swift */,
+				E5A7184D2362F47800E09F01 /* CustomSignInTextField.swift */,
+				E5C8C6E82366ADA500D1965A /* MyTabBarItem.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E5D069A2238BC86B0091076E /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				E5A718312362C64100E09F01 /* SignInViewController.swift */,
+				E5EE48CB236BF6B600FBE421 /* SigninViewModel.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		E5D069A3238BC8750091076E /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				E5A718302362C64100E09F01 /* SignUpViewController.swift */,
+				E5D069A4238BC8B10091076E /* SignUpViewModel.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		E5EE48AA236BF16F00FBE421 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				E5EE48AD236BF16F00FBE421 /* NetworkManager */,
+				E5EE48AB236BF16F00FBE421 /* ImagePickerManager.swift */,
+				E5EE48AC236BF16F00FBE421 /* StorageManager.swift */,
+				E5EE48B5236BF16F00FBE421 /* DatePickerManager.swift */,
+				E5EE48B6236BF16F00FBE421 /* PickerViewManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		E5EE48AD236BF16F00FBE421 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				E5EE48AE236BF16F00FBE421 /* Endpoints.swift */,
+				E5EE48AF236BF16F00FBE421 /* ReachabilityManager.swift */,
+				E5EE48B0236BF16F00FBE421 /* NetworkManager.swift */,
+				E5EE48B1236BF16F00FBE421 /* CustomParser.swift */,
+				E5EE48B2236BF16F00FBE421 /* Parser.swift */,
+				E5EE48B3236BF16F00FBE421 /* CustomError.swift */,
+				E5EE48B4236BF16F00FBE421 /* EndpointType.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		E5EE48C4236BF62300FBE421 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				E5EE48C8236BF65D00FBE421 /* Titles.swift */,
+				E5EE48C7236BF65D00FBE421 /* ErrorMessage.swift */,
+				E5EE48C5236BF65400FBE421 /* Colors.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		F7CA88389A0FE55CE2CA7BB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C8EB5CD2F5B031457E723C4 /* Pods-Meditatio kz.debug.xcconfig */,
+				4EBD08816061D0C5191EC259 /* Pods-Meditatio kz.release.xcconfig */,
+				B9F74689EE3F8FDE57226B8F /* Pods-Meditatio kzTests.debug.xcconfig */,
+				43577B1E203A804905BF97AE /* Pods-Meditatio kzTests.release.xcconfig */,
+				902859FCCBAC02FF376B942E /* Pods-Meditatio kzUITests.debug.xcconfig */,
+				5D24E97FF4F09F8E11F28778 /* Pods-Meditatio kzUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E569FF26234DE7A600961244 /* Meditatio kz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E569FF52234DE7AA00961244 /* Build configuration list for PBXNativeTarget "Meditatio kz" */;
+			buildPhases = (
+				9C4D9E8F11151EF557F999A6 /* [CP] Check Pods Manifest.lock */,
+				E569FF23234DE7A600961244 /* Sources */,
+				E569FF24234DE7A600961244 /* Frameworks */,
+				E569FF25234DE7A600961244 /* Resources */,
+				9F1514BD10DBCF9B946D45D2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Meditatio kz";
+			productName = "Meditatio kz";
+			productReference = E569FF27234DE7A600961244 /* Meditatio kz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E569FF3D234DE7A900961244 /* Meditatio kzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E569FF55234DE7AA00961244 /* Build configuration list for PBXNativeTarget "Meditatio kzTests" */;
+			buildPhases = (
+				56F0E72C2DB218D20C49BF7E /* [CP] Check Pods Manifest.lock */,
+				E569FF3A234DE7A900961244 /* Sources */,
+				E569FF3B234DE7A900961244 /* Frameworks */,
+				E569FF3C234DE7A900961244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E569FF40234DE7A900961244 /* PBXTargetDependency */,
+			);
+			name = "Meditatio kzTests";
+			productName = "Meditatio kzTests";
+			productReference = E569FF3E234DE7A900961244 /* Meditatio kzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E569FF48234DE7A900961244 /* Meditatio kzUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E569FF58234DE7AA00961244 /* Build configuration list for PBXNativeTarget "Meditatio kzUITests" */;
+			buildPhases = (
+				B6DD6AC055548005A229E6AB /* [CP] Check Pods Manifest.lock */,
+				E569FF45234DE7A900961244 /* Sources */,
+				E569FF46234DE7A900961244 /* Frameworks */,
+				E569FF47234DE7A900961244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E569FF4B234DE7AA00961244 /* PBXTargetDependency */,
+			);
+			name = "Meditatio kzUITests";
+			productName = "Meditatio kzUITests";
+			productReference = E569FF49234DE7A900961244 /* Meditatio kzUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E569FF1F234DE7A600961244 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Nazhmeddin Babakhanov";
+				TargetAttributes = {
+					E569FF26234DE7A600961244 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					E569FF3D234DE7A900961244 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = E569FF26234DE7A600961244;
+					};
+					E569FF48234DE7A900961244 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = E569FF26234DE7A600961244;
+					};
+				};
+			};
+			buildConfigurationList = E569FF22234DE7A600961244 /* Build configuration list for PBXProject "Meditatio kz" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E569FF1E234DE7A600961244;
+			productRefGroup = E569FF28234DE7A600961244 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E569FF26234DE7A600961244 /* Meditatio kz */,
+				E569FF3D234DE7A900961244 /* Meditatio kzTests */,
+				E569FF48234DE7A900961244 /* Meditatio kzUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E569FF25234DE7A600961244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E569FFBA235EC43100961244 /* PlayerDetailsView.xib in Resources */,
+				E569FF38234DE7A900961244 /* LaunchScreen.storyboard in Resources */,
+				E569FF35234DE7A900961244 /* Assets.xcassets in Resources */,
+				E569FF30234DE7A600961244 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E569FF3C234DE7A900961244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E569FF47234DE7A900961244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56F0E72C2DB218D20C49BF7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Meditatio kzTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C4D9E8F11151EF557F999A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Meditatio kz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F1514BD10DBCF9B946D45D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Meditatio kz/Pods-Meditatio kz-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Meditatio kz/Pods-Meditatio kz-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Meditatio kz/Pods-Meditatio kz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6DD6AC055548005A229E6AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Meditatio kzUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E569FF23234DE7A600961244 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5A718402362C64100E09F01 /* SignUpViewController.swift in Sources */,
+				E5EE48B9236BF17000FBE421 /* Endpoints.swift in Sources */,
+				E569FFBB235EC43100961244 /* PlayerDetailsView.swift in Sources */,
+				E5A7184E2362F47800E09F01 /* CustomSignInTextField.swift in Sources */,
+				E555127423869DA20075ED08 /* NumericalData.swift in Sources */,
+				E55062312368076E00CF75E6 /* SearchViewController.swift in Sources */,
+				E569FF722350738600961244 /* SelfSizedCollectionView.swift in Sources */,
+				E569FF9D235D7F1B00961244 /* DetailViewController.swift in Sources */,
+				E569FF76235087DC00961244 /* StartNowTableViewCell.swift in Sources */,
+				E5EE48CF236C2F0100FBE421 /* GetToken.swift in Sources */,
+				E555126A238699780075ED08 /* TimeGraphData.swift in Sources */,
+				E5A718592362F8FB00E09F01 /* ProgramsCell.swift in Sources */,
+				E59359E12372C14A00997933 /* MusicPlaylist.swift in Sources */,
+				E569FF5F234F05D500961244 /* ProgamsViewController.swift in Sources */,
+				E55A6F6B2375689A00FCC576 /* Search.swift in Sources */,
+				E569FFB4235EC43100961244 /* PlayerDetailsView+Gestures.swift in Sources */,
+				E5EE48B7236BF17000FBE421 /* ImagePickerManager.swift in Sources */,
+				E5551263238699780075ED08 /* EditProfileViewController.swift in Sources */,
+				E5EE48C1236BF17000FBE421 /* PickerViewManager.swift in Sources */,
+				E542BCC62394D1A70031BEF7 /* PaymentType.swift in Sources */,
+				E569FF702350735F00961244 /* CategotyTableViewCell.swift in Sources */,
+				E555126D238699780075ED08 /* ProfileViewController.swift in Sources */,
+				E55A6F6923752D6700FCC576 /* TrackData.swift in Sources */,
+				E569FFA1235D84FA00961244 /* ViewInstallation.swift in Sources */,
+				E52AD523238FF07300E56F37 /* ProgramAdvantage.swift in Sources */,
+				E5EE48C9236BF65D00FBE421 /* ErrorMessage.swift in Sources */,
+				E569FFBD235EF7BF00961244 /* +NotificationNames.swift in Sources */,
+				E59359DF2372C0EC00997933 /* MusicPlaylists.swift in Sources */,
+				E5D069A5238BC8B10091076E /* SignUpViewModel.swift in Sources */,
+				E569FF5D234DF30300961244 /* TabBarViewController.swift in Sources */,
+				E5551266238699780075ED08 /* GraphRunningTimeView.swift in Sources */,
+				E5A718472362F36A00E09F01 /* StatisticsOption.swift in Sources */,
+				E5551268238699780075ED08 /* RunningTimeRepository.swift in Sources */,
+				E5A7185C2362F8FB00E09F01 /* ProgramsData.swift in Sources */,
+				E55062412368569500CF75E6 /* RecommendedCell.swift in Sources */,
+				E569FF68234F40C000961244 /* ConstraintConstants.swift in Sources */,
+				E5A7185B2362F8FB00E09F01 /* SessionData.swift in Sources */,
+				E558A0842361A6C60083AB0A /* CustomSlider.swift in Sources */,
+				E5EE48BC236BF17000FBE421 /* CustomParser.swift in Sources */,
+				E5551267238699780075ED08 /* StatisticsGraphView.swift in Sources */,
+				E558A08223616E090083AB0A /* OneCollectionViewCell.swift in Sources */,
+				E5EE48D123713A9100FBE421 /* +UIApplication.swift in Sources */,
+				E569FFB7235EC43100961244 /* BackroundMusicManager.swift in Sources */,
+				E52AD51E238F8FFA00E56F37 /* ForgotPasswordViewController.swift in Sources */,
+				E52AD525238FF07A00E56F37 /* UnlockProgramsViewController.swift in Sources */,
+				E569FF62234F2B1600961244 /* UIColor+Pallette.swift in Sources */,
+				E5EE48B8236BF17000FBE421 /* StorageManager.swift in Sources */,
+				E569FF9F235D83C000961244 /* HeaderView.swift in Sources */,
+				E5B644A2237D677E003900F7 /* BackroundTraks.swift in Sources */,
+				E5EE48C0236BF17000FBE421 /* DatePickerManager.swift in Sources */,
+				E569FFC1235F19C400961244 /* +UIWindow.swift in Sources */,
+				E5EE48CC236BF6B600FBE421 /* SigninViewModel.swift in Sources */,
+				E5D069A7238BC8FC0091076E /* RegistrationData.swift in Sources */,
+				E5EE48BA236BF17000FBE421 /* ReachabilityManager.swift in Sources */,
+				E550624523694B0700CF75E6 /* StartNowCollectionViewCell.swift in Sources */,
+				E5551264238699780075ED08 /* NumericInformationView.swift in Sources */,
+				E5C8C6E42366A39B00D1965A /* FavouriteViewController.swift in Sources */,
+				E569FF9A2359C12C00961244 /* MainViewController.swift in Sources */,
+				E5EE48CA236BF65D00FBE421 /* Titles.swift in Sources */,
+				E5551262238699780075ED08 /* ChangePasswordViewController.swift in Sources */,
+				E555126E238699780075ED08 /* SettingsViewController.swift in Sources */,
+				E55A6F6523742F1B00FCC576 /* TrendsData.swift in Sources */,
+				E5A718502362F48000E09F01 /* CustomSignInLabel.swift in Sources */,
+				E569FF2D234DE7A600961244 /* ViewController.swift in Sources */,
+				E569FF742350761600961244 /* GenericTableView.swift in Sources */,
+				E569FF33234DE7A600961244 /* Meditatio_kz.xcdatamodeld in Sources */,
+				E5A718582362F8FB00E09F01 /* ParameterCell.swift in Sources */,
+				E569FF2B234DE7A600961244 /* AppDelegate.swift in Sources */,
+				E5A718492362F38700E09F01 /* ParametersOption.swift in Sources */,
+				E569FF66234F3E1100961244 /* ExtensionUIView.swift in Sources */,
+				E569FFA7235DCB5000961244 /* MusicCollectionViewCell.swift in Sources */,
+				E52AD521238FF06E00E56F37 /* MonthPaymentView.swift in Sources */,
+				E5EE48BB236BF17000FBE421 /* NetworkManager.swift in Sources */,
+				E569FFBF235EFAD100961244 /* +CMTime.swift in Sources */,
+				E5A7183F2362C64100E09F01 /* DetailProgramViewController.swift in Sources */,
+				E5A7185A2362F8FB00E09F01 /* SessionCell.swift in Sources */,
+				E555127223869D430075ED08 /* ShowTrack.swift in Sources */,
+				E569FF6A234F431800961244 /* +UIViewController.swift in Sources */,
+				E5EE48BF236BF17000FBE421 /* EndpointType.swift in Sources */,
+				E569FF6D234F5BB000961244 /* TopCollectionViewCell.swift in Sources */,
+				E5A7184B2362F3A000E09F01 /* SignInTextFieldOption.swift in Sources */,
+				E5B6449E237AB1BB003900F7 /* LikeUnlike.swift in Sources */,
+				E5551269238699780075ED08 /* CalendarViewController.swift in Sources */,
+				E569FFA3235DAFF000961244 /* StretchyHeaderLayout.swift in Sources */,
+				E542BCC82395BBE00031BEF7 /* UrlPayment.swift in Sources */,
+				E5C8C6E92366ADA500D1965A /* MyTabBarItem.swift in Sources */,
+				E5B644A0237BD4EF003900F7 /* PlayerViewContoller.swift in Sources */,
+				E555126B238699780075ED08 /* BarGraphView.swift in Sources */,
+				E569FFA5235DB0F000961244 /* NavigationController.swift in Sources */,
+				E5A718432362F33300E09F01 /* Extension+UITextField.swift in Sources */,
+				E5C8C6E62366A3B000D1965A /* FavouriteHeaderView.swift in Sources */,
+				E5EE48BD236BF17000FBE421 /* Parser.swift in Sources */,
+				E555126C238699780075ED08 /* GraphRunningTimeViewController.swift in Sources */,
+				E55A6F63237415CF00FCC576 /* Program.swift in Sources */,
+				E5551265238699780075ED08 /* GraphRunningTimePresenter.swift in Sources */,
+				E5EE48C6236BF65400FBE421 /* Colors.swift in Sources */,
+				E5551270238699A50075ED08 /* ProfileData.swift in Sources */,
+				E5A718412362C64100E09F01 /* SignInViewController.swift in Sources */,
+				E5EE48BE236BF17000FBE421 /* CustomError.swift in Sources */,
+				E5A718452362F34D00E09F01 /* ToolbarPickerView.swift in Sources */,
+				E52AD51C238E942000E56F37 /* AkilOiData.swift in Sources */,
+				E569FF64234F31C800961244 /* TabBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E569FF3A234DE7A900961244 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E569FF43234DE7A900961244 /* Meditatio_kzTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E569FF45234DE7A900961244 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E569FF4E234DE7AA00961244 /* Meditatio_kzUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E569FF40234DE7A900961244 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E569FF26234DE7A600961244 /* Meditatio kz */;
+			targetProxy = E569FF3F234DE7A900961244 /* PBXContainerItemProxy */;
+		};
+		E569FF4B234DE7AA00961244 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E569FF26234DE7A600961244 /* Meditatio kz */;
+			targetProxy = E569FF4A234DE7AA00961244 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E569FF2E234DE7A600961244 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E569FF2F234DE7A600961244 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E569FF36234DE7A900961244 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E569FF37234DE7A900961244 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E569FF50234DE7AA00961244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E569FF51234DE7AA00961244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E569FF53234DE7AA00961244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C8EB5CD2F5B031457E723C4 /* Pods-Meditatio kz.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T58QDKRLM5;
+				INFOPLIST_FILE = "Meditatio kz/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bnake.Meditatiokz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E569FF54234DE7AA00961244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EBD08816061D0C5191EC259 /* Pods-Meditatio kz.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T58QDKRLM5;
+				INFOPLIST_FILE = "Meditatio kz/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bnake.Meditatiokz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E569FF56234DE7AA00961244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9F74689EE3F8FDE57226B8F /* Pods-Meditatio kzTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Meditatio kzTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bnake.Meditatio-kzTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meditatio kz.app/Meditatio kz";
+			};
+			name = Debug;
+		};
+		E569FF57234DE7AA00961244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43577B1E203A804905BF97AE /* Pods-Meditatio kzTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Meditatio kzTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bnake.Meditatio-kzTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meditatio kz.app/Meditatio kz";
+			};
+			name = Release;
+		};
+		E569FF59234DE7AA00961244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 902859FCCBAC02FF376B942E /* Pods-Meditatio kzUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Meditatio kzUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bnake.Meditatio-kzUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Meditatio kz";
+			};
+			name = Debug;
+		};
+		E569FF5A234DE7AA00961244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D24E97FF4F09F8E11F28778 /* Pods-Meditatio kzUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Meditatio kzUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bnake.Meditatio-kzUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Meditatio kz";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E569FF22234DE7A600961244 /* Build configuration list for PBXProject "Meditatio kz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E569FF50234DE7AA00961244 /* Debug */,
+				E569FF51234DE7AA00961244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E569FF52234DE7AA00961244 /* Build configuration list for PBXNativeTarget "Meditatio kz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E569FF53234DE7AA00961244 /* Debug */,
+				E569FF54234DE7AA00961244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E569FF55234DE7AA00961244 /* Build configuration list for PBXNativeTarget "Meditatio kzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E569FF56234DE7AA00961244 /* Debug */,
+				E569FF57234DE7AA00961244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E569FF58234DE7AA00961244 /* Build configuration list for PBXNativeTarget "Meditatio kzUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E569FF59234DE7AA00961244 /* Debug */,
+				E569FF5A234DE7AA00961244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E569FF31234DE7A600961244 /* Meditatio_kz.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E569FF32234DE7A600961244 /* Meditatio_kz.xcdatamodel */,
+			);
+			currentVersion = E569FF32234DE7A600961244 /* Meditatio_kz.xcdatamodel */;
+			path = Meditatio_kz.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E569FF1F234DE7A600961244 /* Project object */;
+}
